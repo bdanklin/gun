@@ -1,3 +1,12 @@
+# NOTICE
+
+- Gun 2.0 has been prerelease for almost 2 years.
+- Unable to publish packages to hex because gun is still rc.
+- Similar to the now out of date grpc https://github.com/elixir-grpc/[fork]
+- Please direct any credit and support to the original repo: https://github.com/ninenines/gun
+
+---
+
 = Gun
 
 Gun is an Erlang HTTP client with support for HTTP/1.1, HTTP/2 and Websocket.
