@@ -1,9 +1,20 @@
-# NOTICE
+## Notice
 
 - Gun 2.0 has been prerelease for almost 2 years.
 - Unable to publish packages to hex because gun is still rc.
 - Similar to the now out of date grpc https://github.com/elixir-grpc/[fork]
-- Please direct any credit and support to the original repo: https://github.com/ninenines/gun
+
+### Installation
+
+Add to your mix deps
+
+```elixir
+  defp deps do
+    [
+      {:gun, "~> 2.0", hex: :remedy_gun}
+    ]
+  end
+```
 
 ---
 
